@@ -25,11 +25,7 @@ class HesapMakinesi(QMainWindow):  #main class
         # Layout oluştur
         main_layout = QVBoxLayout()
         button_layout = QGridLayout()  # 3x3 matris için QGridLayout kullanın
-
-
         
-   
-
         # Girdi alanı (input area) oluştur
         self.input_area = QTextEdit(self)
         self.input_area.setReadOnly(True)  # Girdi alanını sadece okunabilir yap
